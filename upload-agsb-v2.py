@@ -33,9 +33,9 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "jd"         # 用户名
 UUID = "53469a40-12e6-48fa-b560-cd15782f4e50"                     # UUID，留空则自动生成
-PORT = 30011                   # Vmess端口，留空或0则自动生成
-DOMAIN = "jd.clya.me"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiZGQwOTdiZGViZGM4ZGFlODdhODY4ODk4NDAzNGRiMGIiLCJ0IjoiM2Q0NTc1OTktMTg3ZS00ZGVmLWFlMWMtMWVlNmUyYzY1MjlhIiwicyI6IlpqVmlZV1ExT1RJdE9XUTVOQzAwTXprNUxXSTBZakl0TURFNVkyRXlOV1ptTXprMCJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+PORT = 30123                   # Vmess端口，留空或0则自动生成
+DOMAIN = "https://sds.cyll.nyc.mn/"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiZGQwOTdiZGViZGM4ZGFlODdhODY4ODk4NDAzNGRiMGIiLCJ0IjoiMmZkYTQ2MTktZDk3Yy00Yjk0LWE3YWYtNjVmNGU1NDljZDMyIiwicyI6IlkyVm1aakpqT0RndE1XVm1NaTAwTWpNMUxUaGhPVFl0TXpFMlpHSmhOVFl5TW1JeSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
